@@ -1,0 +1,18 @@
+{
+  "$schema": "./node_modules/oxlint/configuration_schema.json",
+  "plugins": ["oxc", "typescript", "node", "import", "unicorn", "react", "react-perf"],
+  "categories": {
+    "correctness": "error"
+  },
+  "rules": {
+    "react/jsx-curly-brace-presence": [
+      "error",
+      {
+        "props": "always"
+      }
+    ]
+  },
+  "env": {
+    "builtin": true
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "name": "steam-hltb-extension",
+  "version": "0.0.1",
+  "private": true,
+  "description": "A browser extension to show HowLongToBeat times on Steam game store pages",
+  "type": "module",
+  "scripts": {
+    "postinstall": "wxt prepare",
+    "dev": "wxt",
+    "dev:firefox": "wxt -b firefox",
+    "build": "wxt build",
+    "build:firefox": "wxt build -b firefox",
+    "zip": "wxt zip",
+    "zip:firefox": "wxt zip -b firefox",
+    "lint": "oxlint",
+    "lint:fix": "oxlint --fix",
+    "fmt": "oxfmt",
+    "fmt:check": "oxfmt --check",
+    "check": "pnpm run fmt:check && pnpm run lint",
+    "check:fix": "pnpm run fmt && pnpm run lint:fix",
+    "typecheck": "tsc --noEmit",
+    "test:hltb": "tsx scripts/test-hltb.ts"
+  },
+  "dependencies": {
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "@changesets/changelog-github": "^0.6.0",
+    "@changesets/cli": "^2.30.0",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "@wxt-dev/auto-icons": "^1.1.1",
+    "@wxt-dev/module-react": "^1.2.2",
+    "oxfmt": "^0.45.0",
+    "oxlint": "^1.60.0",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3",
+    "wxt": "^0.20.23"
+  },
+  "packageManager": "pnpm@10.33.0"
+}
