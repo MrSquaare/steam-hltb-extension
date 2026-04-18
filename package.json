@@ -23,6 +23,7 @@
     "publish": "changeset publish"
   },
   "dependencies": {
+    "fetch-extras": "^3.0.0",
     "react": "^19.2.5",
     "react-dom": "^19.2.5",
     "zod": "^4.3.6"
@@ -36,7 +37,6 @@
     "@wxt-dev/module-react": "^1.2.2",
     "oxfmt": "^0.45.0",
     "oxlint": "^1.60.0",
-    "tsx": "^4.21.0",
     "typescript": "^5.9.3",
     "wxt": "^0.20.23"
   },
