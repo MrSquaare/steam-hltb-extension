@@ -10,6 +10,7 @@ export default defineConfig({
     host_permissions: ["https://hltbapi.codepotatoes.de/*"],
     browser_specific_settings: {
       gecko: {
+        id: "steam-hltb@mrsquaare.fr",
         data_collection_permissions: {
           required: ["browsingActivity"],
         },
