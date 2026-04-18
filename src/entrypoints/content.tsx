@@ -34,7 +34,8 @@ export default defineContentScript({
       }
 
       if (!result.data.result) {
-        throw new Error("Game not found");
+        console.info("[Content] Game not found");
+        return;
       }
 
       const game = result.data.result;
