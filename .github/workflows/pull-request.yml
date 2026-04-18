@@ -20,6 +20,19 @@ jobs:
         run: |
           pnpm check
 
+  test:
+    name: Test
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+
+      - name: Setup environment
+        uses: ./.github/actions/setup-env
+
+      - name: Test
+        run: |
+          pnpm test
+
   build:
     name: Build
     runs-on: ubuntu-latest

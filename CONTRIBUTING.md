@@ -98,3 +98,9 @@ Auto-fix the code:
 ```shell script
 pnpm check:fix
 ```
+
+Run tests:
+
+```shell script
+pnpm test
+```

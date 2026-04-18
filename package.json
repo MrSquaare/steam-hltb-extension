@@ -19,6 +19,7 @@
     "typecheck": "tsc --noEmit",
     "check": "pnpm run typecheck && pnpm run fmt:check && pnpm run lint",
     "check:fix": "pnpm run typecheck && pnpm run fmt && pnpm run lint:fix",
+    "test": "vitest run",
     "version": "changeset version",
     "publish": "changeset publish"
   },
@@ -38,6 +39,7 @@
     "oxfmt": "^0.45.0",
     "oxlint": "^1.60.0",
     "typescript": "^5.9.3",
+    "vitest": "^4.1.4",
     "wxt": "^0.20.23"
   },
   "packageManager": "pnpm@10.33.0"
