@@ -16,10 +16,11 @@
     "lint:fix": "oxlint --fix",
     "fmt": "oxfmt",
     "fmt:check": "oxfmt --check",
-    "check": "pnpm run fmt:check && pnpm run lint",
-    "check:fix": "pnpm run fmt && pnpm run lint:fix",
     "typecheck": "tsc --noEmit",
-    "test:hltb": "tsx scripts/test-hltb.ts"
+    "check": "pnpm run typecheck && pnpm run fmt:check && pnpm run lint",
+    "check:fix": "pnpm run typecheck && pnpm run fmt && pnpm run lint:fix",
+    "version": "changeset version",
+    "publish": "changeset publish"
   },
   "dependencies": {
     "react": "^19.2.5",
