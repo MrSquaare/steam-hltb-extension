@@ -1,6 +1,6 @@
 {
   "name": "steam-hltb-extension",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "private": true,
   "description": "A browser extension to show HowLongToBeat times on Steam game store pages",
   "type": "module",
