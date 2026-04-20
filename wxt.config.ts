@@ -12,7 +12,7 @@ export default defineConfig({
       browser === "firefox"
         ? {
             gecko: {
-              id: "steam-hltb@mrsquaare.fr",
+              id: "{ec5eff8f-acb7-4556-bb87-a92808e3a10d}",
               data_collection_permissions: {
                 required: ["browsingActivity"],
               },
