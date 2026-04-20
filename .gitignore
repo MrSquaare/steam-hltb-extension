@@ -1,0 +1,28 @@
+# Environment files
+*.env
+*.env.*
+
+# Logs
+logs/
+*.log
+
+# Node
+node_modules/
+
+# pnpm
+.pnpm-store/
+
+# WXT
+.output/
+.wxt/
+web-ext.config.ts
+
+# Jetbrains
+.idea/
+
+# Visual Studio Code
+.vscode/*
+!.vscode/extensions.json
+
+# macOS
+.DS_Store
