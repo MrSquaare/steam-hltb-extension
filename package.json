@@ -39,7 +39,7 @@
     "oxfmt": "^0.45.0",
     "oxlint": "^1.60.0",
     "typescript": "^5.9.3",
-    "vitest": "^4.1.4",
+    "vitest": "^4.1.11",
     "wxt": "^0.20.25"
   },
   "packageManager": "pnpm@10.33.0"
